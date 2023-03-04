@@ -5,7 +5,7 @@ const TopLinks = () => {
 	return (
 		<>
 			<Nav>
-				<Nav.Link id="navLink" href="#aboutUs">
+				<Nav.Link id="navLink" href="#about">
 					About Me
 				</Nav.Link>
 				<Nav.Link id="navLink" href="#wpm">
