@@ -1,0 +1,9 @@
+@use '../base/' as base;
+
+.screenshot {
+	@include base.border($border: true, $thickness: 2px, $color: gray, $radius: true);
+	margin-bottom: 1rem;
+	&:hover {
+		@include base.border($shadow-light-full: true)
+	}
+}

@@ -16,17 +16,24 @@
 	align-items: center;
 }
 
+@mixin flex-row-start {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+
 // Text mixins
 
 @mixin headings {
 	font-weight: 600;
 	margin: 1rem;
-	margin-bottom: 2rem;
+	margin-bottom: 6rem;
 	padding: 1rem;
 	width: fit-content;
 	color: colors.$MainScheme1;
-	background-color: colors.$MainScheme4;
-	@include border($shadow: true, $radius: true, $border: true);
+	background-color: colors.$MainScheme4-transparent;
+	@include border($shadow-light: true, $radius: true, $border: true, $color: colors.$MainScheme1, $thickness: 1px);
 }
 
 @mixin heading-2-3 {
@@ -38,19 +45,27 @@
 // container mixins
 
 @mixin container {
-	color: colors.$MainScheme3;
+	color: colors.$MainScheme4-transparent;
 	background-color: colors.$MainScheme1;
 }
 
 @mixin border(
-	$shadow: false,
+	$shadow-light: false,
+	$shadow-light-full: false,
+	$shadow-dark: false,
 	$radius: false,
 	$border: false,
 	$thickness: 0px,
 	$color: colors.$MainScheme4
 ) {
-	@if $shadow {
-		box-shadow: colors.$box-shadow;
+	@if $shadow-dark {
+		box-shadow: colors.$box-shadow-dark;
+	}
+	@if $shadow-light {
+		box-shadow: colors.$box-shadow-light;
+	}
+	@if $shadow-light-full {
+		box-shadow: colors.$box-shadow-light-full;
 	}
 	@if $radius {
 		border-radius: 0.25rem;

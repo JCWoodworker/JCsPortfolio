@@ -7,7 +7,7 @@ const CarShow = () => {
 		<>
 			<h1>
 				Car Show App
-				<GithubHeaderLink link="https://car-show-app-preprod.herokuapp.com/" />
+				<GithubHeaderLink link="https://github.com/JCWoodworker/car-show-participant-app/blob/main/README.md" />
 			</h1>
 			<Container>
 				<Row className="project-row">
@@ -28,11 +28,7 @@ const CarShow = () => {
 					</Col>
 					<Col>
 						<h3>
-							Made for the Michael P Stefanik Charitable Foundation, this app
-							allows users to add vehicles to there profile and choose which
-							one(s) to register for our annual car show. Paypal integrated.
-							Admins can view data on all users and vehicles, and register a
-							vehicle as "cash" if the user does not want to use a credit card.
+							Made for the Michael P Stefanik Charitable Foundation's annual car show.  Users can add cars and pay for a registration through Paypal.  Admin can view all registered and non-registered cars, and register cars as "cash" rather than "credit".
 						</h3>
 					</Col>
 				</Row>

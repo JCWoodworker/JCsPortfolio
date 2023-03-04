@@ -1,8 +1,10 @@
 @use './colors' as colors;
 @use './mixins' as mixins;
+@use './typeography' as typeography;
 
 body {
-  background-color: colors.$Accent5;
+  font-family: typeography.$ubuntu;
+  background-color: colors.$MainScheme4;
 }
 
 h1 {

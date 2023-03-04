@@ -3,7 +3,7 @@
 .navigationBar {
 	background-color: base.$MainScheme4;
 	border-bottom: 3px solid base.$MainScheme2;
-	box-shadow: base.$box-shadow;
+	box-shadow: base.$box-shadow-dark;
 	position: fixed; 
 	.navbar-brand {
 		color: base.$MainScheme1;
@@ -34,13 +34,12 @@
 	color: base.$MainScheme1;
 	font-size: 1.25rem;
 	font-weight: bold;
-	@include base.border($shadow: false, $border: false);
+	@include base.border($shadow-dark: false, $border: false);
 	width: fit-content;
 	padding: 2px 8px;
 	margin: 2px;
 	&:hover {
-		color: base.$MainScheme4;
-		background-color: base.$MainScheme1;
+		@include base.border($shadow-light-full: true)
 	}
 }
 

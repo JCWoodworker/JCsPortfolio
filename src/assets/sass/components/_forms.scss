@@ -6,7 +6,11 @@
 	color: base.$MainScheme1;
 	background-color: base.$MainScheme4;
 	@include base.border(
-		$shadow: true,
+		$shadow-light: true,
+		$border: true,
+		$color: base.$MainScheme1,
+		$thickness: 1px,
+		$radius: true
 	);
 	margin: 0.5rem;
 	padding: 2rem;
@@ -28,7 +32,7 @@
 	};
 	input, textarea {
 		@include base.border(
-			$shadow: false,
+			$shadow-dark: false,
 			$border: true,
 			$thickness: 2px,
 			$color: base.$MainScheme1

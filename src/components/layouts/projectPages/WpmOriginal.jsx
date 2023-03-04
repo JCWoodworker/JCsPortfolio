@@ -7,7 +7,7 @@ const WpmOriginal = () => {
 		<>
 			<h1>
 				Woodworker's Project Manager & CRM
-				<GithubHeaderLink link="https://github.com/JCWoodworker/Woodworker-project-management" />{" "}
+				<GithubHeaderLink link="https://github.com/JCWoodworker/Woodworker-project-management/blob/main/README.md" />
 			</h1>
 			<Container>
 				<Row className="project-row">
@@ -28,7 +28,7 @@ const WpmOriginal = () => {
 								fluid
 								src="https://s3.amazonaws.com/jcwoodworker.portfolio/screenshot-wpm-original.png"
 								alt="placeholder"
-							/>
+							></Image>
 						</a>
 						<h3>React, Node, Express PostgreSQL</h3>
 						<h3>Deployed with Heroku</h3>
