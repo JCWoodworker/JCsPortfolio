@@ -13,13 +13,10 @@ const WpmOriginal = () => {
 				<Row className="project-row">
 					<Col>
 						<h3>
-							This allows woodworkers to manage their projects and also their
-							customers with a build-in CRM. Twilio integration allows them to
-							text ther customers as well. A local lumberyard who's customers
-							use the app can login to their admin account and view data on what
-							hardwoods their users need (and how much), update pricing, and
-							message all users.
+							A project management app with built-in CRM for woodworkers.  Distributed by a lumberyard who can view data on what
+							hardwoods their users need (and how much), update pricing, and send marketing emails to all users.
 						</h3>
+						<h3>Utilizes EmailJS and Twilio</h3>
 					</Col>
 					<Col>
 						<a
