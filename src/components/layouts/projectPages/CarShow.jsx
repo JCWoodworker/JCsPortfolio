@@ -19,7 +19,18 @@ const CarShow = () => {
 							<Image
 								className="screenshot"
 								fluid
-								src="https://s3.amazonaws.com/jcwoodworker.portfolio/screenshot-car-show-app.png"
+								src="https://s3.amazonaws.com/jcwoodworker.portfolio/Screenshot-car-show-001.png"
+								alt="placeholder"
+							/>
+						</a>
+						<a
+							href="https://car-show-app-preprod.herokuapp.com/"
+							target="_blank"
+						>
+							<Image
+								className="screenshot"
+								fluid
+								src="https://s3.amazonaws.com/jcwoodworker.portfolio/Screenshot-car-show-002.png"
 								alt="placeholder"
 							/>
 						</a>
@@ -35,6 +46,17 @@ const CarShow = () => {
 							<li>Express</li>
 							<li>Postgres</li>
 						</ul>
+						<a
+							href="https://car-show-app-preprod.herokuapp.com/"
+							target="_blank"
+						>
+							<Image
+								className="screenshot"
+								fluid
+								src="https://s3.amazonaws.com/jcwoodworker.portfolio/Screenshot-car-show-003.png"
+								alt="placeholder"
+							/>
+						</a>
 					</Col>
 				</Row>
 			</Container>

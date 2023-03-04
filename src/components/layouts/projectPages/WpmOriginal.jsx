@@ -19,7 +19,18 @@ const WpmOriginal = () => {
 							<Image
 								className="screenshot"
 								fluid
-								src="https://s3.amazonaws.com/jcwoodworker.portfolio/screenshot-wpm-original.png"
+								src="https://s3.amazonaws.com/jcwoodworker.portfolio/screenshot-wpm-original-001.png"
+								alt="placeholder"
+							></Image>
+						</a>
+						<a
+							href="https://woodworking-project-calc.herokuapp.com/"
+							target="_blank"
+						>
+							<Image
+								className="screenshot"
+								fluid
+								src="https://s3.amazonaws.com/jcwoodworker.portfolio/Screenshot-wpm-original-002.png"
 								alt="placeholder"
 							></Image>
 						</a>
@@ -40,6 +51,17 @@ const WpmOriginal = () => {
 							<li>EmailJS</li>
 							<li>Twilio</li>
 						</ul>
+						<a
+							href="https://woodworking-project-calc.herokuapp.com/"
+							target="_blank"
+						>
+							<Image
+								className="screenshot"
+								fluid
+								src="https://s3.amazonaws.com/jcwoodworker.portfolio/Screenshot-wpm-original-003.png"
+								alt="placeholder"
+							></Image>
+						</a>
 					</Col>
 				</Row>
 			</Container>

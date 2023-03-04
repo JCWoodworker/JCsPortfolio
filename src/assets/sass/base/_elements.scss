@@ -32,5 +32,6 @@ a {
 }
 
 ul {
-  color: colors.$MainScheme1
+  color: colors.$MainScheme1;
+  list-style-type: none;
 }
