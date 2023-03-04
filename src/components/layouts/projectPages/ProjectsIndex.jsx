@@ -17,7 +17,7 @@ const ProjectsIndex = () => {
 					</Col>
 				</Row>
 			</FadeInSection>
-			<br />
+
 			<FadeInSection>
 				<Row>
 					<Col className="component-container" id="carShow">

@@ -11,14 +11,16 @@
 
 @mixin flex-row-center {
 	display: flex;
-	flex-flow: row wrap;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
 
 @mixin flex-row-start {
 	display: flex;
-	flex-flow: row wrap;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: flex-start;
 }
