@@ -23,13 +23,18 @@ const CarShow = () => {
 								alt="placeholder"
 							/>
 						</a>
-						<h3>React, Node, Express, PostgreSQL</h3>
 						<h3>Deployed with Heroku</h3>
 					</Col>
 					<Col>
 						<h3>
 							Made for the Michael P Stefanik Charitable Foundation's annual car show.  Users can add cars and pay for a registration through Paypal.  Admin can view all registered and non-registered cars, and register cars as "cash" rather than "credit".
 						</h3>
+						<ul>
+							<li>React</li>
+							<li>Node</li>
+							<li>Express</li>
+							<li>Postgres</li>
+						</ul>
 					</Col>
 				</Row>
 			</Container>

@@ -12,13 +12,6 @@ const WpmOriginal = () => {
 			<Container>
 				<Row className="project-row">
 					<Col>
-						<h3>
-							A project management app with built-in CRM for woodworkers.  Distributed by a lumberyard who can view data on what
-							hardwoods their users need (and how much), update pricing, and send marketing emails to all users.
-						</h3>
-						<h3>Utilizes EmailJS and Twilio</h3>
-					</Col>
-					<Col>
 						<a
 							href="https://woodworking-project-calc.herokuapp.com/"
 							target="_blank"
@@ -30,8 +23,23 @@ const WpmOriginal = () => {
 								alt="placeholder"
 							></Image>
 						</a>
-						<h3>React, Node, Express PostgreSQL</h3>
 						<h3>Deployed with Heroku</h3>
+					</Col>
+					<Col>
+						<h3>
+							A project management app with built-in CRM for woodworkers.
+							Distributed by a lumberyard who can view data on what hardwoods
+							their users need (and how much), update pricing, and send
+							marketing emails to all users.
+						</h3>
+						<ul>
+							<li>React</li>
+							<li>Node</li>
+							<li>Express</li>
+							<li>Postgres</li>
+							<li>EmailJS</li>
+							<li>Twilio</li>
+						</ul>
 					</Col>
 				</Row>
 			</Container>
