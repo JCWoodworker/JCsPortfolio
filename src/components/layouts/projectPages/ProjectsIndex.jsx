@@ -1,6 +1,7 @@
 import React from "react"
 import { Container, Row, Col, Fade } from "react-bootstrap"
 
+import AboutMe from "../aboutMe/AboutMe"
 import WpmOriginal from "./WpmOriginal"
 import CarShow from "./CarShow"
 import Contact from "./contact/Contact"
@@ -10,6 +11,14 @@ const ProjectsIndex = () => {
 	return (
 		<Container className="mainContainer" id="projects">
 			
+			<FadeInSection>
+				<Row>
+					<Col className="component-container" id="about">
+						<AboutMe />
+					</Col>
+				</Row>
+			</FadeInSection>
+
 			<FadeInSection>
 				<Row>
 					<Col className="component-container" id="wpm">
