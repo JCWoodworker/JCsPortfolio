@@ -15,7 +15,7 @@ const TopLinks = () => {
 					Car Show
 				</Nav.Link>
 				<Nav.Link id="navLink" href="#contact">
-					Contact
+					Contact/Hire Me
 				</Nav.Link>
 				<Nav.Link
 					id="navLink"

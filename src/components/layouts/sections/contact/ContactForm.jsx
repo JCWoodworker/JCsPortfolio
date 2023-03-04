@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Form, Button } from "react-bootstrap"
+import { Form, Button, Image } from "react-bootstrap"
 import emailjs from "emailjs-com"
 import Swal from "sweetalert2"
 
@@ -94,7 +94,13 @@ const ContactForm = () => {
 					Submit
 				</Button>
 			<br />
-			<p>No validation has been set up yet ... its on the way though!</p>
+			<Image
+			fluid
+			src="https://s3.amazonaws.com/jcwoodworker.portfolio/stinking-validation.jpeg"
+			alt="validation"
+			/>
+			<p>Validation??  We don't need no stinking validation!!</p>
+			<p>There is no validation ... just hit submit ... this form doesn't care if you type or not (yet)</p>
 			</Form>
 		</>
 	)
