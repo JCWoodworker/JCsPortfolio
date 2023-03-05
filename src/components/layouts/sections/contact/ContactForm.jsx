@@ -41,7 +41,7 @@ const ContactForm = () => {
 			e.target.reset()
 			clearForm()
 		} catch (error) {
-			console.log(error.text)
+			console.log(error)
 			Swal.fire({
 				icon: "error",
 				title: "Ooops, something went wrong",
@@ -59,31 +59,33 @@ const ContactForm = () => {
 			<Form onSubmit={handleSubmit} className="form-container">
 				<div className="form-groups-container">
 					<Form.Group controlId="formBasicEmail" className="form-group">
-						<Form.Label>Email address</Form.Label>
+						<Form.Label>Email addres:</Form.Label>
 						<Form.Control
 							type="email"
-							placeholder="Enter email"
+							placeholder="Your email"
 							value={formData.email}
 							name="email"
 							onChange={handleChange}
 						/>
 					</Form.Group>
 					<Form.Group controlId="formBasicFirstName">
-						<Form.Label>First Name</Form.Label>
+						<Form.Label>First Name:</Form.Label>
 						<Form.Control
 							type="text"
-							placeholder="Enter first name"
+							placeholder="Your first name"
 							value={formData.firstName}
 							name="firstName"
 							onChange={handleChange}
 						/>
 					</Form.Group>
+				</div>
+				<div className="form-groups-container">
 					<Form.Group controlId="formBasicMessage">
-						<Form.Label>Message</Form.Label>
+						<Form.Label>Message:</Form.Label>
 						<Form.Control
 							as="textarea"
 							rows={3}
-							placeholder="Enter your message"
+							placeholder="Your message for me!"
 							value={formData.message}
 							name="message"
 							onChange={handleChange}
@@ -93,14 +95,19 @@ const ContactForm = () => {
 				<Button variant="primary" type="submit" className="clickable-button">
 					Submit
 				</Button>
-			<br />
-			<Image
-			fluid
-			src="https://s3.amazonaws.com/jcwoodworker.portfolio/stinking-validation.jpeg"
-			alt="validation"
-			/>
-			<p>Validation??  We don't need no stinking validation!!</p>
-			<p>There is no validation ... just hit submit ... this form doesn't care if you type or not (yet)</p>
+				<br />
+				<Image
+					className="screenshot"
+					fluid
+					src="https://s3.amazonaws.com/jcwoodworker.portfolio/stinking-validation.jpeg"
+					alt="validation"
+				/>
+				<p>Validation?? We don't need no stinking validation!!</p>
+				<p>
+					There is no validation just yet, but its in the works! If you submit a
+					blank form I'll get an email with a blank message, and you'll still
+					see a confirmation pop-up.
+				</p>
 			</Form>
 		</>
 	)

@@ -1,11 +1,20 @@
-import React from "react"
-import { Container, Row, Col, Image } from "react-bootstrap"
+import React, { useState } from "react"
+import { Container, Row, Image } from "react-bootstrap"
 import GithubIcon from "../../../icons/GithubIcon"
 import InstagramIcon from "../../../icons/InstagramIcon"
 import LinkedInIcon from "../../../icons/LinkedInIcon"
 import FadeInSection from "../../../services/FadeInSection"
 
 const AboutMe = () => {
+	const [skillsList, setSkillsList] = useState([
+		"React",
+		"Node",
+		"Express",
+		"Postgres",
+		"EmailJS",
+		"Twilio",
+		"Heroku",
+	])
 	return (
 		<FadeInSection>
 			<Container>
@@ -54,6 +63,14 @@ const AboutMe = () => {
 							alt="placeholder"
 						/>
 					</a>
+				</Row>
+				<Row className="project-row">
+					<h3>Skills</h3>
+					<ul>
+						{skillsList.map((skill) => (
+							<li>{skill}</li>
+						))}
+					</ul>
 				</Row>
 			</Container>
 		</FadeInSection>
