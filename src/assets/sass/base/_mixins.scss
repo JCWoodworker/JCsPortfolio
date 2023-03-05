@@ -33,7 +33,6 @@
 	margin: 1rem;
 	margin-bottom: 6rem;
 	padding: 1rem;
-	width: fit-content;
 	color: colors.$MainScheme1;
 	background-color: colors.$MainScheme4-transparent;
 	@include border($shadow-light: true, $radius: true, $border: true, $color: colors.$MainScheme1, $thickness: 1px);

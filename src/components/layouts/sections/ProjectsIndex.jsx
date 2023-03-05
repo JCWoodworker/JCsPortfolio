@@ -10,39 +10,18 @@ import FadeInSection from "../../services/FadeInSection"
 const ProjectsIndex = () => {
 	return (
 		<Container className="mainContainer" id="projects">
-			
-			<FadeInSection>
-				<Row>
-					<Col className="component-container" id="about">
+				<Row className="component-container" id="about">
 						<AboutMe />
-					</Col>
 				</Row>
-			</FadeInSection>
-
-			<FadeInSection>
-				<Row>
-					<Col className="component-container" id="wpm">
+				<Row className="component-container" id="wpm">
 						<WpmOriginal />
-					</Col>
 				</Row>
-			</FadeInSection>
-
-			<FadeInSection>
-				<Row>
-					<Col className="component-container" id="carShow">
+				<Row className="component-container" id="carShow">
 						<CarShow />
-					</Col>
 				</Row>
-			</FadeInSection>
-
-			<FadeInSection>
-				<Row>
-					<Col className="component-container" id="contact">
+				<Row className="component-container" id="contact">
 						<Contact />
-					</Col>
 				</Row>
-			</FadeInSection>
-
 		</Container>
 	)
 }

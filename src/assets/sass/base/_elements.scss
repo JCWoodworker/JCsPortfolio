@@ -34,4 +34,9 @@ a {
 ul {
   color: colors.$MainScheme1;
   list-style-type: none;
+  @include mixins.flex-row-center
+}
+
+li {
+  margin: 0.5rem;
 }

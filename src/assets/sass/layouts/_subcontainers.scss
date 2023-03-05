@@ -2,13 +2,13 @@
 
 .component-container {
 	min-height: 50vh;
-	width: 100vw;
+	width: 100%;
 	margin: 1rem auto;
 	margin-bottom: 1rem;
 	padding: 1rem;
 	scroll-behavior: smooth;
   // This is the line that makes the header row scroll to the top of the page and needs to be changed when top nav-bar dimensions change
-	scroll-margin-block-start: 9rem;
+	scroll-margin-block-start: 10rem;
 }
 
 .project-row {
