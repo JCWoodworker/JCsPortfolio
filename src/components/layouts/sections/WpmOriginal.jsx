@@ -1,13 +1,13 @@
 import React from "react"
 import { Container, Row, Col, Image } from "react-bootstrap"
-import GithubHeaderLink from "../../icons/GithubHeaderLink"
+import GithubIcon from "../../icons/GithubIcon"
 
 const WpmOriginal = () => {
 	return (
 		<>
 			<h1>
 				Woodworker's Project Manager & CRM
-				<GithubHeaderLink link="https://github.com/JCWoodworker/Woodworker-project-management/blob/main/README.md" />
+				<GithubIcon link="https://github.com/JCWoodworker/Woodworker-project-management/blob/main/README.md" />
 			</h1>
 			<Container>
 				<Row className="project-row">

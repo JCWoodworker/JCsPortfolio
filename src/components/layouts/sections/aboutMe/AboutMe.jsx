@@ -1,13 +1,17 @@
 import React from "react"
 import { Container, Row, Col, Image } from "react-bootstrap"
-import GithubHeaderLink from "../../../icons/GithubHeaderLink"
+import GithubIcon from "../../../icons/GithubIcon"
+import InstagramIcon from "../../../icons/InstagramIcon"
+import LinkedInIcon from "../../../icons/LinkedInIcon"
 
 const AboutMe = () => {
 	return (
 		<>
 			<h1>
 				About Me
-				<GithubHeaderLink link="https://github.com/JCWoodworker/JCWoodworker" />
+				<GithubIcon link="https://github.com/JCWoodworker/JCWoodworker" />
+				<InstagramIcon link="https://www.instagram.com/rilocalwoodworks/"/>
+				<LinkedInIcon link="https://www.linkedin.com/in/j-corey/" />
 			</h1>
 			<Container>
 				<Row className="project-row">
